@@ -2364,7 +2364,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 13.6
+  orthographic size: 4.1046343
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2425,7 +2425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 2045760974}
   objectTransform: {fileID: 0}
-  currentAspectRatio: {x: 9, y: 16}
+  currentAspectRatio: {x: 41, y: 22}
   currentCameraRect:
     serializedVersion: 2
     x: 0
