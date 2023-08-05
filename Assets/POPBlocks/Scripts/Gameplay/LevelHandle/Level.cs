@@ -27,6 +27,7 @@ namespace POPBlocks.Scripts.LevelHandle
     {
         [HideInInspector]
         public int num;
+        public int newLevel;
         public int moves = 20;
         [Range(3, 6)] public int colors = 4;
         public Vector2Int size = Vector2Int.one * 6;
@@ -66,6 +67,8 @@ namespace POPBlocks.Scripts.LevelHandle
         public Vector2Int size = Vector2Int.one;
         public EditorIconTypes secondClick;
         public bool rotate;
+
+
 
         public LevelBlock(BlocksTypes type, GameObject prefab, Texture2D icon, Vector2Int size, int col = 0)
         {

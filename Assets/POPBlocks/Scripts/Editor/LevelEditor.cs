@@ -222,6 +222,10 @@ namespace POPBlocks.Scripts.Editor
                 {
                     NewLevel();
                 }
+                if (GUILayout.Button("Reset"))
+                {
+                    ResetLevel();
+                }
             }
             GUILayout.EndHorizontal();
 
@@ -263,6 +267,18 @@ namespace POPBlocks.Scripts.Editor
             instance.num = levelsNum;
             string assetPathAndName = AssetDatabase.GenerateUniqueAssetPath("Assets/POPBlocks/Resources/Levels/Level_" + levelsNum + ".asset");
             AssetDatabase.CreateAsset(instance, assetPathAndName);
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+            Selection.activeObject = instance;
+        }
+
+
+        private void ResetLevel()
+        {
+            var instance = level;
+            var newLevel = instance.newLevel;
+            instance.name = "Level_" + newLevel;
+            instance.num = newLevel;
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
             Selection.activeObject = instance;

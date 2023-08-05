@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level_32
   m_EditorClassIdentifier: 
   num: 32
-  moves: 33
+  moves: 5
   colors: 4
   size: {x: 6, y: 6}
   stars:
@@ -21,16 +21,16 @@ MonoBehaviour:
   targets:
     array:
     - index: 0
-      target: {fileID: 11400000, guid: c8db719b148e39c4b90762c5b6acf730, type: 2}
-      count:
-        values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    - index: 0
       target: {fileID: 11400000, guid: 1bc42293db18c2f4aace507b728e63f3, type: 2}
       count:
         values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - index: 0
+      target: {fileID: 11400000, guid: acb0e254142d0bb49abd009cd607097a, type: 2}
+      count:
+        values: 0300000000000000030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   Blocks:
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -39,8 +39,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -49,8 +49,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -59,8 +59,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -69,8 +69,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -79,8 +79,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -89,8 +89,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -99,8 +99,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -109,8 +109,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -119,8 +119,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -129,8 +129,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -139,8 +139,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -149,10 +149,20 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
-    icon: {fileID: 2800000, guid: 430d88c2f36abd843a15a905ef6d50b5, type: 3}
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
     layer: 0
     overlapBlockObject: {fileID: 0}
     layers: []
@@ -163,8 +173,8 @@ MonoBehaviour:
     prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
     color: 0
     icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
+    layer: 1
+    overlapBlockObject: {fileID: 0}
     layers:
     - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
       pos: {x: 0, y: 0}
@@ -174,6 +184,116 @@ MonoBehaviour:
       pos: {x: 0, y: 0}
       scale: {x: 1.0000002, y: 1.0000002}
       rotation: {x: -0, y: -0, z: 90}
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 47029fec615dcfe40a7675b7e25f0ae5, type: 3}
+    color: 0
+    icon: {fileID: 2800000, guid: 6d0d92b5eed2e12488fc092793103cc0, type: 3}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 2
+    icon: {fileID: 2800000, guid: 86152ba564a01a4408e47ee71ced7aa9, type: 3}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 0
+    icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
@@ -189,6 +309,56 @@ MonoBehaviour:
     rotate: 0
   - type: 2
     prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 2
+    icon: {fileID: 2800000, guid: 86152ba564a01a4408e47ee71ced7aa9, type: 3}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 0
+    prefab: {fileID: 0}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
     color: 0
     icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
     layer: 0
@@ -198,322 +368,32 @@ MonoBehaviour:
     secondClick: 0
     rotate: 0
   - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 430d88c2f36abd843a15a905ef6d50b5, type: 3}
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 2
+    icon: {fileID: 2800000, guid: 86152ba564a01a4408e47ee71ced7aa9, type: 3}
     layer: 0
     overlapBlockObject: {fileID: 0}
     layers: []
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: d096ff6e5f9e7c641ae3271b3400c981, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 65196f802707a5c4b9bb8e292e99c2b5, type: 3}
+    icon: {fileID: 0}
     layer: 0
     overlapBlockObject: {fileID: 0}
     layers: []
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
+  - type: 0
+    prefab: {fileID: 0}
     color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: d096ff6e5f9e7c641ae3271b3400c981, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 65196f802707a5c4b9bb8e292e99c2b5, type: 3}
+    icon: {fileID: 0}
     layer: 0
     overlapBlockObject: {fileID: 0}
     layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: d096ff6e5f9e7c641ae3271b3400c981, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 65196f802707a5c4b9bb8e292e99c2b5, type: 3}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: d096ff6e5f9e7c641ae3271b3400c981, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 65196f802707a5c4b9bb8e292e99c2b5, type: 3}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 0}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 0}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 0}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 3640192097045036810, guid: 59709d6e776b9aa4cb8c2160d3e493d7, type: 3}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: a9d3892dbd7ec0a4facb5a599ce0b987, type: 3}
-    color: 0
-    icon: {fileID: 2800000, guid: 33b3620769a2aba408b2bbd08ff78dcf, type: 3}
-    layer: 3
-    overlapBlockObject: {fileID: 0}
-    layers:
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      rotation: {x: -0, y: 0, z: 0}
-    - Texture2D: {fileID: 2800000, guid: d75e7f848f9c56f49a66274ab5d25aa6, type: 3}
-      pos: {x: 0, y: 0}
-      scale: {x: 1.0000002, y: 1.0000002}
-      rotation: {x: -0, y: -0, z: 90}
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0

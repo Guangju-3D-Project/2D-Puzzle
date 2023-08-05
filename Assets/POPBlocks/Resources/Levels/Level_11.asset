@@ -23,22 +23,12 @@ MonoBehaviour:
     - index: 0
       target: {fileID: 11400000, guid: acb0e254142d0bb49abd009cd607097a, type: 2}
       count:
-        values: 0700000007000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+        values: 1900000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   Blocks:
-  - type: 0
-    prefab: {fileID: 0}
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
     color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 0
-    prefab: {fileID: 0}
-    color: 0
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
     layer: 0
     overlapBlockObject: {fileID: 0}
     layers: []
@@ -56,16 +46,6 @@ MonoBehaviour:
     secondClick: 0
     rotate: 0
   - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
-    color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 0
     prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
@@ -75,7 +55,7 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 0
+  - type: 1
     prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
@@ -85,10 +65,20 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 0
+  - type: 1
     prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 0
+    icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
     layer: 0
     overlapBlockObject: {fileID: 0}
     layers: []
@@ -115,27 +105,7 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
-    color: 1
-    icon: {fileID: 2800000, guid: 5832b3c9fe4a51042afdf6410de50c85, type: 3}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
   - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
-    color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 0
     prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
@@ -146,36 +116,6 @@ MonoBehaviour:
     secondClick: 0
     rotate: 0
   - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
-    color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
-    color: 1
-    icon: {fileID: 2800000, guid: 5832b3c9fe4a51042afdf6410de50c85, type: 3}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 0
-    prefab: {fileID: 0}
-    color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 0
     prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
@@ -215,80 +155,20 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
+  - type: 1
+    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
   - type: 2
     prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
     color: 0
     icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 0
-    prefab: {fileID: 0}
-    color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 0
-    prefab: {fileID: 0}
-    color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
-    color: 1
-    icon: {fileID: 2800000, guid: 5832b3c9fe4a51042afdf6410de50c85, type: 3}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
-    color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 0
-    prefab: {fileID: 0}
-    color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 1
-    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
-    color: 0
-    icon: {fileID: 0}
-    layer: 0
-    overlapBlockObject: {fileID: 0}
-    layers: []
-    size: {x: 1, y: 1}
-    secondClick: 0
-    rotate: 0
-  - type: 2
-    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
-    color: 1
-    icon: {fileID: 2800000, guid: 5832b3c9fe4a51042afdf6410de50c85, type: 3}
     layer: 0
     overlapBlockObject: {fileID: 0}
     layers: []
@@ -315,7 +195,97 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 0
+  - type: 1
+    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 1
+    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 1
+    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 0
+    icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 0
+    icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 1
+    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 1
+    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 1
+    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 0
+    icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 1
     prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
@@ -325,7 +295,7 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 0
+  - type: 1
     prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
@@ -335,7 +305,37 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 0
+    icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 1
+    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
+    color: 0
+    icon: {fileID: 0}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
+    color: 0
+    icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
+    layer: 0
+    overlapBlockObject: {fileID: 0}
+    layers: []
+    size: {x: 1, y: 1}
+    secondClick: 0
+    rotate: 0
+  - type: 1
     prefab: {fileID: 0}
     color: 0
     icon: {fileID: 0}
@@ -365,8 +365,8 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 0
-    prefab: {fileID: 0}
+  - type: 1
+    prefab: {fileID: 1420559934481352437, guid: 9f632c6cc78cfb840b32be3667026916, type: 3}
     color: 0
     icon: {fileID: 0}
     layer: 0
@@ -375,10 +375,10 @@ MonoBehaviour:
     size: {x: 1, y: 1}
     secondClick: 0
     rotate: 0
-  - type: 0
-    prefab: {fileID: 0}
+  - type: 2
+    prefab: {fileID: 3640192097045036810, guid: 66987ce55b4877e459f02b6bcb633cb2, type: 3}
     color: 0
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: d71b4c4e5138e1448b88fd022e2630c8, type: 3}
     layer: 0
     overlapBlockObject: {fileID: 0}
     layers: []
